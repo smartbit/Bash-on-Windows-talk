@@ -1,4 +1,9 @@
 # Bash-on-Windows-talk
 presentation given at Software Circus meetup on May 18, 2016
 
-viewing at https://rawgit.com/smartbitnl/test-remark/master/remarkdemo.html fails :-( 
+View using one of these CDNs
+- http://rawgit.com/smartbit/Bash-on-Windows-talk/master/bash-on-windows.html
+- http://cdn.gitcdn.link/cdn/smartbit/Bash-on-Windows-talk/master/bash-on-windows.html
+or clone and open .html in Chrome
+
+More on these CDNs see https://github.com/schme16/gitcdn.xyz & https://rawgit.com/faq

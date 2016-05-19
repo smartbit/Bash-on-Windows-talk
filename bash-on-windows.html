@@ -2,7 +2,7 @@
 <html>
   <head>
     <base target="_blank">
-    <title>Docker en Cloud (Ngi-NGN) - 23 maart 2016</title>
+    <title>Bash on Windows - Software Circus May 18, 2016</title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
     <style type="text/css">
       @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
@@ -70,6 +70,16 @@
       .icon img {
         height: 1em;
       }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
       .exercise {
         background-color: #eee;
         background-image: url("keyboard.png");
@@ -92,7 +102,7 @@ class: no-number
 class: title
 
 # Bash on Windows
-<br/><small>_Is the future bright?_</small>
+<br/><small>_a brief overview_</small>
 <br/><br/>Bart Smith
 <!--
 to convert to PDF eg use https://github.com/astefanutti/decktape
@@ -104,12 +114,7 @@ to convert to PDF eg use https://github.com/astefanutti/decktape
   - overview
   - installing
   - using</small>
-2. Microsoft<small>
-  - NET core
-  - Xamarin & C#
-  - Docker
-  - Visual Studio Code
-  - SQL Server for Linux</small>
+2. Microsoft & Open Scource
 3. Embrace, Extend and Extinguish?
 
 ---
@@ -118,13 +123,13 @@ to convert to PDF eg use https://github.com/astefanutti/decktape
 - Hello! I am: Bart
   <br/>`smartbit at gmail dot com`
 
-- Dev: Windows Applicatie _startup_, near sourcing development
+- Dev: Windows Application _startup_, near sourcing development
 
-- Ops: \>20 jaar Trainer en Consultant
+- Ops: ~25 years Trainer and Consultant
 
 - [switcher](http://blog.scottlowe.org/2016/01/08/full-stack-journey-ep001/)
 
-- [meetups](https://www.youtube.com/user/TheSmartbit) en conferenties
+- [meetups](https://www.youtube.com/user/TheSmartbit) and conferences
 
 ---
 
@@ -136,54 +141,83 @@ grep '^# ' index.html | grep -v '<br' | tr '#' '-'^C
 # Bash on Windows
 ## _Why?_
 - better Windows Console (no ctrl+v 😫)
-- Powershell for Windows only
+- Powershell only runs on Windows
 - Many develop for Linux, Android, iOS, etc
 - Perl, Python, Ruby and many other Open Source projects native to Linux & Unix
 ---
 # Bash on Windows
 ## Architecture
-
+<!--![Architectur](https://msdnshared.blob.core.windows.net/media/2016/04/LXSS-diagram-1024x472.jpg) -->
+![Architectur](LXSS-diagram-1024x472.jpg)
 ---
 # Bash on Windows
 ## installing
+- download Win10 latest
+- Windows 10 key needed (professional)
+- Insider account
+- install in VirtualBox with Guest Additions
+-
+
 ---
-# Bash on Windows
-## working
+class: inverse, center, middle
+
+# <big>DEMO<big>
 ---
 # Windows 10 experience
 - Language :-( Dutch
+
+--
 - privacy
+
+![privacy1](build 14332_privacy1.png)
+
 ---
+# Windows 10 experience
+- privacy
+
+![privacy2](build 14332_privacy2.png)
+
+---
+# Windows 10 experience
+- privacy
+
+![privacy3](build 14332_privacy3.png)
+---
+# Windows 10 experience
+- privacy
+
+![privacy4](build 14332_privacy4.png)
+
+---
+# Windows 10 experience
+- privacy
+
+![Skype](Skype auto logon prof 14332.png)
+
+---
+
 # Microsoft & Open Source technologies
-## NET Core
-- Beta 2 announced
----
-# Conclusie
-
----
-# Conclusie
-
-- Slechte Nieuws: het gaat snel
-
-  - it's not all unicorns🦄, ponies🐴, and rainbows🌈
-
-  - [leren](https://vimeo.com/16335525), leren, [leren]([Seven Sins of Scrum and other Agile Antipatterns])
+- NET core
 --
 
-- Good news: ook met Cloud technieken is er werk voor *Operations*
+- Xamarin & C#
+--
 
-  - *Nee, Docker maakt je baan niet overbodig*
+- Docker
+--
 
-  - building, packaging, distributing apps
+- Visual Studio Code
+--
 
-  - [leren](https://www.youtube.com/watch?v=P_sWGl7MzhU&t=1204), [leren](http://brainrules.net/short-term-memory), [leren](http://brainrules.net/long-term-memory)
+- SQL Server for Linux
+--
 
+- etc
 
 ---
-
 class: title
-
-# Thanks! <br/> Questions?
+# Discussion
+# Embrace, Extend and Extinguish?
 
 ### Bart
 
